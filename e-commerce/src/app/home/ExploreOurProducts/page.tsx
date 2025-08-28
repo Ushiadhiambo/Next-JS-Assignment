@@ -19,11 +19,12 @@ const baseProducts = [
   {id: 8,name: "Quilted Satin Jacket",price: 660,rating: 4,reviews: 55,isNew: false,colors: ["#184A48", "#FB1314"]}
 ];
 
+type Product = typeof baseProducts[0] & { image: string };
+
 export default function OurProducts() {
-  const [products, setProducts] = useState<typeof baseProducts>([]);
+  const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    // Assign a random image to each product on client only
     const randomizedProducts = baseProducts.map(product => ({
       ...product,
       image: "/images/" + productImages[Math.floor(Math.random() * productImages.length)]
@@ -67,8 +68,8 @@ export default function OurProducts() {
 
               <div className="w-39 h-60 rounded-lg flex items-center justify-center overflow-hidden">
                 <Image
-                  src="images/image.png"
-                  alt="image"
+                  src={product.image}
+                  alt={product.name}
                   width={220}
                   height={100}
                   className=""
