@@ -28,7 +28,7 @@ export default function LoginPage() {
         {}
         <div className="rounded bg-gray-100 overflow-hidden">
           <Image
-            src="/images/cart.jpg"
+            src="/images/image copy 16.png"
             alt="Login visual"
             width={600}
             height={440}

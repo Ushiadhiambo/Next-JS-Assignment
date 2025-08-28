@@ -64,7 +64,7 @@ export default function Hero() {
 
             <div className="flex-1 flex items-center justify-center">
               <Image
-                src="/images/light.jpg"
+                src="/images/image copy 15.png"
                 alt="iPhone 14 Series"
                 width={1000}
                 height={1000}

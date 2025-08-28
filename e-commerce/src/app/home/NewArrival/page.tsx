@@ -18,7 +18,7 @@ export default function NewArrival() {
         <div className="bg-black text-white rounded-sm p-8 relative overflow-hidden h-[600px] flex flex-col justify-end">
           <div className="absolute inset-0 flex items-center justify-center">
             <Image
-              src={"/images/" + ["bluetooth.jpg","cart.jpg","headphones.jpg","headsets.jpg","light.jpg","mirror.jpg","monitor.jpg","pets.png"][Math.floor(Math.random()*8)]}
+               src="/images/image copy 9.png"
               alt="PlayStation 5"
               width={500}
               height={320}
@@ -41,7 +41,7 @@ export default function NewArrival() {
           <div className="bg-black text-white rounded-sm p-8 relative overflow-hidden h-[285px] flex items-end">
             <div className="absolute right-1 top-8 bottom-8 w-120 flex items-center justify-center">
               <Image
-                src={"/images/" + ["bluetooth.jpg","cart.jpg","headphones.jpg","headsets.jpg","light.jpg","mirror.jpg","monitor.jpg","pets.png"][Math.floor(Math.random()*8)]}
+                src="/images/image copy 10.png"
                 alt="Women&#39;s Collection"
                 width={780}
                 height={224}
@@ -64,7 +64,7 @@ export default function NewArrival() {
             <div className="bg-black text-white rounded-sm p-6 relative overflow-hidden h-[285px] flex flex-col justify-end">
               <div className="absolute top-20 left-1/2 transform -translate-x-1/2 w-50 h-30 flex items-center justify-center">
                 <Image
-                  src={"/images/" + ["bluetooth.jpg","cart.jpg","headphones.jpg","headsets.jpg","light.jpg","mirror.jpg","monitor.jpg","pets.png"][Math.floor(Math.random()*8)]}
+                   src="/images/image copy 12.png"
                   alt="Speakers"
                   width={208}
                   height={128}
@@ -86,7 +86,7 @@ export default function NewArrival() {
             <div className="bg-black text-white rounded-sm p-6 relative overflow-hidden h-[285px] flex flex-col justify-end">
               <div className="absolute top-20 left-1/2 transform -translate-x-1/2 w-57 h-35 flex items-center justify-center">
                 <Image
-                  src={"/images/" + ["bluetooth.jpg","cart.jpg","headphones.jpg","headsets.jpg","light.jpg","mirror.jpg","monitor.jpg","pets.png"][Math.floor(Math.random()*8)]}
+                   src="/images/image copy 14.png"
                   alt="Perfume"
                   width={258}
                   height={128}

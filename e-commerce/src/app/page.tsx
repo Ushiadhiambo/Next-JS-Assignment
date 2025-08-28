@@ -29,7 +29,7 @@ export default function Page() {
         {}
         <div className="rounded bg-gray-100 overflow-hidden">
           <Image
-            src="/images/cart.jpg"
+            src="/images/image copy 16.png"
             alt="Shopping cart"
             width={800}
             height={440}

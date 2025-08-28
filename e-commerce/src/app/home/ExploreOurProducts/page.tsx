@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Heart, Eye, Star } from "lucide-react";
 
 const productImages = [
-  "Frame 611.png","image.png","image copy.png","image copy 2.png",
+  "image copy 18.png","image.png","image copy.png","image copy 2.png",
   "image copy 3.png","image copy 4.png","image copy 5.png","image copy 6.png"
 ];
 
