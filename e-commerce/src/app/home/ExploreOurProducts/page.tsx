@@ -67,8 +67,8 @@ export default function OurProducts() {
 
               <div className="w-39 h-60 rounded-lg flex items-center justify-center overflow-hidden">
                 <Image
-                  src={product.image}
-                  alt={product.name}
+                  src="images/image.png"
+                  alt="image"
                   width={220}
                   height={100}
                   className=""
